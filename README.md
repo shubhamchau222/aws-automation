@@ -3,7 +3,7 @@
 
 ## Installation of terrafrom 
 
-[![Download terrafrom ](https://i.pinimg.com/originals/28/ec/74/28ec7440a57536eebad2931517aa1cce.png)](https://www.terraform.io/downloads.html)
+[![Download terrafrom ](https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Terraform_Logo.svg/330px-Terraform_Logo.svg.png)](https://www.terraform.io/downloads.html)
 
 ```bash
     download terrafrom through given link according to your system config 
