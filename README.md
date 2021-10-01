@@ -97,3 +97,10 @@ resource "aws_instance" "my-first-server" {
 ```
 - all the Information of Your EC2 instance will be added infile <.terraform.lock.hcl>
 
+## How to destroy the EC2 Instances ? 
+
+```bash 
+
+        $ terraform destroy 
+        
+        ```
