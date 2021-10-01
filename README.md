@@ -103,4 +103,12 @@ resource "aws_instance" "my-first-server" {
 
         $ terraform destroy 
         
-        ```
+```
+
+
+- while deleting the Instance keep in mind  " terraform destroy " 
+will delete your Entire infrastructure...
+- hence for deleting specific Instance You need to provide the Name of
+   this Instance 
+
+- 
