@@ -1,0 +1,2 @@
+# Your Instance Infrmation will be stored infile [.terraform.lock.hcl]
+# make sure that Your credential info will be hidden , it'll cause harm for your system / project 

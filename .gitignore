@@ -1,0 +1,4 @@
+# files to hide 
+.idea
+.terraform.lock.hcl
+.terraform
