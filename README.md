@@ -12,7 +12,7 @@
 
 ## Basic command in use 
 ```bash  
-  $ terraform
+  $ terraform   # to check terraform installed or not 
   $ terraform init 
   $ terraform plan 
   $ terraform apply
