@@ -68,3 +68,32 @@ resource "<provider>_<resource type >" "name" {
 
          }
 ```
+
+
+## how to initialized Ec2 instances ? 
+
+- How to Initializeed EC2 instance Automatically through code ? 
+- "aws_instance" => provider , insatnce => name of service 
+-  "shubham" => Name of the instance
+
+```bash 
+resource "aws_instance" "my-first-server" {
+   ami           = "ami-0a23ccb2cdd9286bb"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "Shubham"
+  }
+}
+```
+
+- commands to initialized instance
+
+```bash 
+   $ terraform init    # initialized terraform 
+   $ terraform plan     # to detect the changes 
+   $ terraform apply    # to apply the changes you've done ( initialized instance)
+
+```
+- all the Information of Your EC2 instance will be added infile <.terraform.lock.hcl>
+
